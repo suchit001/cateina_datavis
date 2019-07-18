@@ -1,0 +1,47 @@
+select{
+  width: 100%;
+}
+/*button,select,input {
+  width: 100px;
+  height: 70px;
+*//*  display: inline-block;*//*
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}*/
+
+.non-neighbours{
+    opacity:0;
+}
+
+.nonstroked{
+    opacity:0;
+}
+
+.node text{
+font: 12px sans-serif;}
+
+.level-0 {
+    opacity: 0;
+}
+
+.nonaspected{
+    opacity: 0;
+}
+
+.link{
+fill: none;
+stroke: black;}
+
+.overlay{
+background-color: #eee;}
+
+.icon{
+border-radius: 50%;}
+
+.arraytext{
+font: 20px sans-serif;}
+
+svg {
+border-style: solid;
+border-width: 1px;}

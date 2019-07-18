@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+<meta charset="UTF-8">
+<title>Cateina</title>
+<link href="stylesheet.css" rel="stylesheet" type="text/css">
+
+</head>
+<body><div>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="dndTree.js"></script>
+<button onclick="startx();">Start</button>
+&nbsp;&nbsp;
+<button onclick="removeduplicates();">Remove Duplicates</button>
+&nbsp;&nbsp;
+<input list="aspectip" id="baspectip" >
+<datalist id="aspectip"></datalist>
+<button onclick ="aspect();">Single Aspect</button>
+&nbsp;&nbsp;
+<button onclick ="neighbours();">Get Neighbours</button>
+&nbsp;&nbsp;
+<input list="searchip" id="bsearchip">
+<datalist id="searchip"></datalist>
+<button onclick ="search();">Search</button>
+&nbsp;&nbsp;
+<button onclick ="path();">Path</button>
+&nbsp;&nbsp;
+<button onclick ="rootpath();">Root path</button>
+&nbsp;&nbsp;
+<input list="searchip" id="bnode1">
+<datalist id="searchip"></datalist>
+&nbsp;&nbsp;
+<input list="searchip" id="bnode2">
+<datalist id="searchip"></datalist>
+<button onclick ="filetrees();">File Trees</button>
+<input list="fileip" id="bfileip">
+<datalist id="fileip"></datalist>
+
+<h6></h6>
+</div>
+<div id="svgcontent">
+</div>
+<h1></h1>
+</body>
+</html>

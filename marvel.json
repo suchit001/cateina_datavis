@@ -1,0 +1,834 @@
+[
+{
+"name" : "cateina",
+"parent" : null,
+"type" : "Organization",
+"parentType" : null,
+"API" : "",
+"value" : "cateina",
+"filename" : "uploads/bookservice.wsdl",
+"company" : "cateina"
+},
+{
+"name" : "dept2",
+"parent" : "cateina",
+"type" : "Department",
+"parentType" : "Organization",
+"API" : "",
+"value" : "dept2",
+"filename" : "uploads/bookservice.wsdl",
+"company" : "cateina"
+},
+{
+
+"name" : "sys2",
+"parent" : "dept2",
+"type" : "System",
+"parentType" : "Department",
+"API" : "",
+"value" : "sys2",
+"filename" : "uploads/bookservice.wsdl",
+"company" : "cateina"
+},
+{
+
+"name" : "BookServiceSOAP",
+"parent" : "sys2",
+"type" : "Port",
+"parentType" : "Service",
+"API" : "",
+"value" : "BookServiceSOAP",
+"filename" : "uploads/bookservice.wsdl",
+"company" : "cateina"
+},
+{
+
+"name" : "GetBook",
+"parent" : "BookServiceSOAP",
+"type" : "Operation",
+"parentType" : "Port",
+"API" : "BookServiceSOAP",
+"value" : "GetBook",
+"filename" : "uploads/bookservice.wsdl",
+"company" : "cateina"
+},
+{
+
+"name" : "input",
+"parent" : "GetBook",
+"type" : "Request",
+"parentType" : "Operation",
+"API" : "BookServiceSOAP",
+"value" : "input",
+"filename" : "uploads/bookservice.wsdl",
+"company" : "cateina"
+},
+{
+
+"name" : "ID",
+"parent" : "input",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "BookServiceSOAP",
+"value" : "ID",
+"filename" : "uploads/bookservice.wsdl",
+"company" : "cateina"
+},
+{
+
+"name" : "output",
+"parent" : "GetBook",
+"type" : "Response",
+"parentType" : "Operation",
+"API" : "BookServiceSOAP",
+"value" : "output",
+"filename" : "uploads/bookservice.wsdl",
+"company" : "cateina"
+},
+{
+
+"name" : "ID_2",
+"parent" : "output",
+"type" : "Parameter",
+"parentType" : "Response",
+"API" : "BookServiceSOAP",
+"value" : "ID",
+"filename" : "uploads/bookservice.wsdl",
+"company" : "cateina"
+},
+{
+
+"name" : "Title",
+"parent" : "output",
+"type" : "Parameter",
+"parentType" : "Response",
+"API" : "BookServiceSOAP",
+"value" : "Title",
+"filename" : "uploads/bookservice.wsdl",
+"company" : "cateina"
+},
+{
+
+"name" : "Author",
+"parent" : "output",
+"type" : "Parameter",
+"parentType" : "Response",
+"API" : "BookServiceSOAP",
+"value" : "Author",
+"filename" : "uploads/bookservice.wsdl",
+"company" : "cateina"
+},
+{
+
+"name" : "AddBook",
+"parent" : "BookServiceSOAP",
+"type" : "Operation",
+"parentType" : "Port",
+"API" : "BookServiceSOAP",
+"value" : "AddBook",
+"filename" : "uploads/bookservice.wsdl",
+"company" : "cateina"
+},
+{
+
+"name" : "input_2",
+"parent" : "AddBook",
+"type" : "Request",
+"parentType" : "Operation",
+"API" : "BookServiceSOAP",
+"value" : "input",
+"filename" : "uploads/bookservice.wsdl",
+"company" : "cateina"
+},
+{
+
+"name" : "Title_2",
+"parent" : "input_2",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "BookServiceSOAP",
+"value" : "Title",
+"filename" : "uploads/bookservice.wsdl",
+"company" : "cateina"
+},
+{
+
+"name" : "Author_2",
+"parent" : "input_2",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "BookServiceSOAP",
+"value" : "Author",
+"filename" : "uploads/bookservice.wsdl",
+"company" : "cateina"
+},
+{
+
+"name" : "output_2",
+"parent" : "AddBook",
+"type" : "Response",
+"parentType" : "Operation",
+"API" : "BookServiceSOAP",
+"value" : "output",
+"filename" : "uploads/bookservice.wsdl",
+"company" : "cateina"
+},
+{
+
+"name" : "ID_3",
+"parent" : "output_2",
+"type" : "Parameter",
+"parentType" : "Response",
+"API" : "BookServiceSOAP",
+"value" : "ID",
+"filename" : "uploads/bookservice.wsdl",
+"company" : "cateina"
+},
+{
+
+"name" : "GetAllBooks",
+"parent" : "BookServiceSOAP",
+"type" : "Operation",
+"parentType" : "Port",
+"API" : "BookServiceSOAP",
+"value" : "GetAllBooks",
+"filename" : "uploads/bookservice.wsdl",
+"company" : "cateina"
+},
+{
+
+"name" : "input_3",
+"parent" : "GetAllBooks",
+"type" : "Request",
+"parentType" : "Operation",
+"API" : "BookServiceSOAP",
+"value" : "input",
+"filename" : "uploads/bookservice.wsdl",
+"company" : "cateina"
+},
+{
+
+"name" : "output_3",
+"parent" : "GetAllBooks",
+"type" : "Response",
+"parentType" : "Operation",
+"API" : "BookServiceSOAP",
+"value" : "output",
+"filename" : "uploads/bookservice.wsdl",
+"company" : "cateina"
+},
+{
+
+"name" : "Book[]",
+"parent" : "output_3",
+"type" : "Parameter",
+"parentType" : "Response",
+"API" : "BookServiceSOAP",
+"value" : "Book[]",
+"filename" : "uploads/bookservice.wsdl",
+"company" : "cateina"
+},
+{
+
+"name" : "ID_4",
+"parent" : "Book[]",
+"type" : "Parameter",
+"parentType" : "Parameter",
+"API" : "BookServiceSOAP",
+"value" : "ID",
+"filename" : "uploads/bookservice.wsdl",
+"company" : "cateina"
+},
+{
+
+"name" : "Title_3",
+"parent" : "Book[]",
+"type" : "Parameter",
+"parentType" : "Parameter",
+"API" : "BookServiceSOAP",
+"value" : "Title",
+"filename" : "uploads/bookservice.wsdl",
+"company" : "cateina"
+},
+{
+
+"name" : "Author_3",
+"parent" : "Book[]",
+"type" : "Parameter",
+"parentType" : "Parameter",
+"API" : "BookServiceSOAP",
+"value" : "Author",
+"filename" : "uploads/bookservice.wsdl",
+"company" : "cateina"
+},
+{
+
+"name" : "Test Intimation",
+"parent" : "dc",
+"type" : "API",
+"parentType" : "System",
+"API" : "Test Intimation",
+"value" : "Test Intimation",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "/v1/test/intimations",
+"parent" : "Test Intimation",
+"type" : "Path",
+"parentType" : "API",
+"API" : "Test Intimation",
+"value" : "/v1/test/intimations",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "post",
+"parent" : "/v1/test/intimations",
+"type" : "Method",
+"parentType" : "Path",
+"API" : "Test Intimation",
+"value" : "post",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "RequestHeader",
+"parent" : "post",
+"type" : "Request",
+"parentType" : "Method",
+"API" : "Test Intimation",
+"value" : "RequestHeader",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+"name" : "RequestBody",
+"parent" : "post",
+"type" : "Request",
+"parentType" : "Method",
+"API" : "Test Intimation",
+"value" : "RequestBody",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+"name" : "incidentCity",
+"parent" : "RequestBody",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "incidentCity",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "incidentPinCode",
+"parent" : "RequestBody",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "incidentPinCode",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "incidentState",
+"parent" : "RequestBody",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "incidentState",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "InsuredMobileNumber",
+"parent" : "RequestBody",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "InsuredMobileNumber",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "intimationDate",
+"parent" : "RequestBody",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "intimationDate",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "lossDescription",
+"parent" : "RequestBody",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "lossDescription",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "policyNumber",
+"parent" : "RequestBody",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "policyNumber",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "claimRegistrationDate",
+"parent" : "RequestBody",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "claimRegistrationDate",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "causeOfLoss",
+"parent" : "RequestBody",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "causeOfLoss",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "incidentCity",
+"parent" : "RequestHeader",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "incidentCity",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "incidentPinCode",
+"parent" : "RequestHeader",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "incidentPinCode",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "incidentState",
+"parent" : "RequestHeader",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "incidentState",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "InsuredMobileNumber",
+"parent" : "RequestHeader",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "InsuredMobileNumber",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "intimationDate",
+"parent" : "RequestHeader",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "intimationDate",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "lossDescription",
+"parent" : "RequestHeader",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "lossDescription",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "policyNumber",
+"parent" : "RequestHeader",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "policyNumber",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "claimRegistrationDate",
+"parent" : "RequestHeader",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "claimRegistrationDate",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "causeOfLoss",
+"parent" : "RequestHeader",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "causeOfLoss",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "ResponseBody",
+"parent" : "post",
+"type" : "Response",
+"parentType" : "Method",
+"API" : "Test Intimation",
+"value" : "ResponseBody",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+
+{
+
+"name" : "claimID",
+"parent" : "ResponseBody",
+"type" : "Parameter",
+"parentType" : "Response",
+"API" : "Test Intimation",
+"value" : "claimID",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+"name" : "ICICI_Five",
+"parent" : "ffb",
+"type" : "API",
+"parentType" : "System",
+"API" : "ICICI_Five",
+"value" : "ICICI_Five",
+"filename" : "uploads/ICICI_Five.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "/test/five",
+"parent" : "ICICI_Five",
+"type" : "Path",
+"parentType" : "API",
+"API" : "ICICI_Five",
+"value" : "/test/five",
+"filename" : "uploads/ICICI_Five.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "post",
+"parent" : "/test/five",
+"type" : "Method",
+"parentType" : "Path",
+"API" : "ICICI_Five",
+"value" : "post",
+"filename" : "uploads/ICICI_Five.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "RequestBody",
+"parent" : "post",
+"type" : "Request",
+"parentType" : "Method",
+"API" : "ICICI_Five",
+"value" : "RequestBody",
+"filename" : "uploads/ICICI_Five.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "post",
+"parent" : "/v1/test/intimations",
+"type" : "Method",
+"parentType" : "Path",
+"API" : "Test Intimation",
+"value" : "post",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "RequestHeader",
+"parent" : "post",
+"type" : "Request",
+"parentType" : "Method",
+"API" : "Test Intimation",
+"value" : "RequestHeader",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "RequestBody",
+"parent" : "post",
+"type" : "Request",
+"parentType" : "Method",
+"API" : "Test Intimation",
+"value" : "RequestBody",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "incidentCity",
+"parent" : "RequestBody",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "incidentCity",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "incidentPinCode",
+"parent" : "RequestBody",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "incidentPinCode",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "incidentState",
+"parent" : "RequestBody",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "incidentState",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "InsuredMobileNumber",
+"parent" : "RequestBody",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "InsuredMobileNumber",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "intimationDate",
+"parent" : "RequestBody",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "intimationDate",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "lossDescription",
+"parent" : "RequestBody",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "lossDescription",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "policyNumber",
+"parent" : "RequestBody",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "policyNumber",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "claimRegistrationDate",
+"parent" : "RequestBody",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "claimRegistrationDate",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "causeOfLoss",
+"parent" : "RequestBody",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "causeOfLoss",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "incidentCity",
+"parent" : "RequestHeader",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "incidentCity",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+
+{
+
+"name" : "incidentPinCode",
+"parent" : "RequestHeader",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "incidentPinCode",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "incidentState",
+"parent" : "RequestHeader",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "incidentState",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "InsuredMobileNumber",
+"parent" : "RequestHeader",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "InsuredMobileNumber",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "intimationDate",
+"parent" : "RequestHeader",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "intimationDate",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "lossDescription",
+"parent" : "RequestHeader",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "lossDescription",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "policyNumber",
+"parent" : "RequestHeader",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "policyNumber",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "claimRegistrationDate",
+"parent" : "RequestHeader",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "claimRegistrationDate",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "causeOfLoss",
+"parent" : "RequestHeader",
+"type" : "Parameter",
+"parentType" : "Request",
+"API" : "Test Intimation",
+"value" : "causeOfLoss",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+
+"name" : "ResponseBody",
+"parent" : "post",
+"type" : "Response",
+"parentType" : "Method",
+"API" : "Test Intimation",
+"value" : "ResponseBody",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+},
+{
+"name" : "claimID",
+"parent" : "ResponseBody",
+"type" : "Parameter",
+"parentType" : "Response",
+"API" : "Test Intimation",
+"value" : "claimID",
+"filename" : "uploads/TestIntimation.yaml",
+"company" : "cateina"
+}
+]
